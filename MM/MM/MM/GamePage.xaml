@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MM.GamePage">
+    
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackLayout Grid.Row="0" Grid.Column="0">
+            <Label Text="Enter length of desired computation:"
+                   VerticalOptions="EndAndExpand"
+                   HorizontalOptions="Center"/>
+            <Entry x:Name="LengthOfComputation" 
+                   Keyboard="Numeric"
+                   VerticalOptions="StartAndExpand"
+                   HorizontalOptions="Center"/>
+        </StackLayout>
+
+        <!-- <StackLayout Grid.Row="0" Grid.Column="1">
+            <Label Text="Select speed:"
+                   VerticalOptions="EndAndExpand"
+                   HorizontalOptions="Center"/>
+            <Slider VerticalOptions="StartAndExpand"
+                    HorizontalOptions="Center"/>
+        </StackLayout> -->
+
+        <StackLayout Grid.Row="1" Grid.Column="0">
+            <Label Text="Maximum number in computation:"
+                   VerticalOptions="EndAndExpand"
+                   HorizontalOptions="Center"/>
+            <Entry x:Name="RangeOfComputation" 
+                   Keyboard="Numeric"
+                   VerticalOptions="StartAndExpand"
+                   HorizontalOptions="Center"/>
+        </StackLayout>
+
+        <Button Grid.Row="2" Grid.ColumnSpan="2" 
+                Text="Start!"
+                x:Name="StartGameButton"
+                Clicked="Btn_StartGame"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+
+        <Entry Grid.Row="4" Grid.ColumnSpan="2"
+               Placeholder="Enter answer here"
+               x:Name="userAnswer" 
+               Keyboard="Numeric"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="Center"/>
+
+        <!--<Button Grid.Row="5" Grid.Column="0" 
+                Text="Repeat"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/> -->
+
+        <Button Grid.Row="5" Grid.Column="1" 
+                Text="Check Answer"
+                Clicked="Btn_CheckAnswer"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+
+    </Grid>
+    
+</ContentPage>

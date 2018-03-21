@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MM"
+             x:Class="MM.MainPage">
+
+    <StackLayout Spacing="10">
+
+        <Label Text="Welcome to Computer Brain!" 
+               VerticalOptions="EndAndExpand"
+               HorizontalOptions="Center"
+               FontSize="Large"/>
+
+        <Button x:Name="Btn" Clicked="Btn_Clicked"
+                Text="Begin!"
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="CenterAndExpand"/>
+
+        <Label Text="The goal of the game is simple: To do mental calculations!" 
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="Center"
+               FontSize="Micro"/>
+
+    </StackLayout>
+
+</ContentPage>

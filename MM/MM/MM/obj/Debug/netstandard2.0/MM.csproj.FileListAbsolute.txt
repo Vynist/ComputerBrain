@@ -1,0 +1,12 @@
+C:\Users\Blandified\Desktop\repos\MM\MM\MM\MM\bin\Debug\netstandard2.0\MM.deps.json
+C:\Users\Blandified\Desktop\repos\MM\MM\MM\MM\bin\Debug\netstandard2.0\MM.dll
+C:\Users\Blandified\Desktop\repos\MM\MM\MM\MM\bin\Debug\netstandard2.0\MM.pdb
+C:\Users\Blandified\Desktop\repos\MM\MM\MM\MM\obj\Debug\netstandard2.0\MM.csprojResolveAssemblyReference.cache
+C:\Users\Blandified\Desktop\repos\MM\MM\MM\MM\obj\Debug\netstandard2.0\MM.csproj.CoreCompileInputs.cache
+C:\Users\Blandified\Desktop\repos\MM\MM\MM\MM\obj\Debug\netstandard2.0\MM.App.xaml.g.cs
+C:\Users\Blandified\Desktop\repos\MM\MM\MM\MM\obj\Debug\netstandard2.0\MM.GamePage.xaml.g.cs
+C:\Users\Blandified\Desktop\repos\MM\MM\MM\MM\obj\Debug\netstandard2.0\MM.MainPage.xaml.g.cs
+C:\Users\Blandified\Desktop\repos\MM\MM\MM\MM\obj\Debug\netstandard2.0\MM.AssemblyInfoInputs.cache
+C:\Users\Blandified\Desktop\repos\MM\MM\MM\MM\obj\Debug\netstandard2.0\MM.AssemblyInfo.cs
+C:\Users\Blandified\Desktop\repos\MM\MM\MM\MM\obj\Debug\netstandard2.0\MM.dll
+C:\Users\Blandified\Desktop\repos\MM\MM\MM\MM\obj\Debug\netstandard2.0\MM.pdb
